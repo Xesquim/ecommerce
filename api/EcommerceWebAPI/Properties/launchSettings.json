@@ -1,4 +1,24 @@
-﻿{
+{
+  "profiles": {
+    "EcommerceWebAPI": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AUDIENCE": "AudienceExample",
+        "ISSUER": "IssuerExample",
+        "SECONDS": "7200",
+        "APPLY_MIGRATIONS": "true"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5076"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
@@ -6,22 +26,6 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:5076",
       "sslPort": 0
-    }
-  },
-  "profiles": {
-    "EcommerceWebAPI": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5076",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
     }
   }
 }
